@@ -1695,7 +1695,7 @@ node_types:
     derived_from: tosca.nodes.SoftwareComponent
     artifacts:
       hadoop_role:
-        file: indigo-dc.hadoop
+        file: indigo-dc.hadoop,update_new_stable
         type: tosca.artifacts.AnsibleGalaxy.role
     interfaces:
       Standard:
@@ -1712,7 +1712,7 @@ node_types:
         type: string
     artifacts:
       hadoop_role:
-        file: indigo-dc.hadoop
+        file: indigo-dc.hadoop,update_new_stable
         type: tosca.artifacts.AnsibleGalaxy.role
     interfaces:
       Standard:
